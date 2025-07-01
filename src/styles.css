@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.input-lists {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.each-input {
+  cursor: pointer;
+}
+sup {
+  cursor: pointer;
+  margin: 2px;
+  padding: 2px;
+  color: red;
+}
+sup:hover {
+  color: black;
+}
+.whole-input {
+  margin: 10px;
+  max-width: 100%;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(202, 199, 199);
+}
